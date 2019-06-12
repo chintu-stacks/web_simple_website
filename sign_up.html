@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Thapa CAfe</title>
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Flamenco">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/lightbox.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+</head>
+<body>
+    <nav>
+        <div class="clearfix" id="fix">
+            <!-- <a href="profile.html"><img src="img/logo.jpg" alt="" class="logo"></a> -->
+            <ul class="main-nav animated slideInDown"  id="check-class">
+              <li><i class="fa fa-home" id="sm-one"></i><a href="index.html">Home</a></li>
+              <li><i class="fa fa-truck" id="sm-one"></i><a href="cake_delivery.html">CAKE DELIVERY</a></li>
+              <li><i class="fa fa-truck" id="sm-one"></i><a href="order.html">HOW TO ORDER</a></li>
+              <li><i class="fa fa-search" id="sm-one"></i><a href="check.html">CHECK MORE</a></li>
+              <li><i class="fa fa-user-plus" id="sm-one"></i><a href="sign_up.html">Sign Up</a></li>
+              <li><i class="fa fas-sign-in-alt" id="sm-one"></i><a href="log_in.html">LogIn</a></li>
+            </ul>
+            <a href=""class="mobile-icon" onclick="slideshow()"><i class="fa fa-bars"></i></a>
+        </div>
+    </nav>
+  <section class="main-section">
+      <div class="container">
+        <div class="col-md-12">
+          <div class="row">
+            <div class="col-md-6 mb-4" id="userHeader">
+              <marquee><p class="marq">We Deliver to Your Door Step</p></marquee>
+                <!-- <img src="img/byc.jpg" alt=""> -->
+            </div>
+            <div class="col-md-6 mb-4 mt-5" id="userDetails">
+                  <div class="card"  id="regDetails">
+                    <div class="card-body">
+                      <!-- <?php
+                        if (isset($error)) {
+                          echo '<div class="text-warning text-center font-weight-bold">'.$error.'</div>';
+                        }
+                      ?> -->
+                      <h3 class="text-center">Create an Account</h3>
+                      <h5><span class="colorchange">First Time Sign-Up 2% coupon for Coffee.</span></h5>
+                      <form method="post">
+                        
+                          <div class="input-group mb-2">
+                            <div class="input-group-prepend">
+                              <div class="input-group-text">
+                                <span class="fa fa-user"></span>
+                              </div>
+                            </div>
+                            <input type="text" class="form-control" id="inlineFormInputGroup" name="first_name" placeholder="FIrst name">
+                          </div>
+        
+                          <div class="input-group mb-2">
+                            <div class="input-group-prepend">
+                              <div class="input-group-text">
+                                <span class="fa fa-user"></span>
+                              </div>
+                            </div>
+                            <input type="text" class="form-control" id="inlineFormInputGroup" name="last_name" placeholder="Last name">
+                          </div>
+        
+                          <div class="input-group mb-2">
+                            <div class="input-group-prepend">
+                              <div class="input-group-text">
+                                <span class="fa fa-envelope"></span>
+                              </div>
+                            </div>
+                            <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Email" name="email">
+                          </div>
+        
+                          <div class="input-group mb-2">
+                            <div class="input-group-prepend">
+                              <div class="input-group-text">
+                                <span class="fa fa-lock"></span>
+                              </div>
+                            </div>
+                            <input type="password" class="form-control" id="inlineFormInputGroup" placeholder="Password" name="password">
+                          </div>
+        
+                          <div class="input-group mb-2">
+                            <div class="input-group-prepend">
+                              <div class="input-group-text">
+                                <span class="fa fa-lock"></span>
+                              </div>
+                            </div>
+                            <input type="password" class="form-control" id="inlineFormInputGroup" placeholder="Confirm password" name="confirm_password">
+                          </div>
+        
+                          <div class="input-group mb-2">
+                            <div class="input-group-prepend">
+                              <div class="input-group-text">
+                                <span class="fa fa-home"></span>
+                              </div>
+                            </div>
+                            <input type="address" class="form-control" id="inlineFormInputGroup" placeholder="Address" name="address">
+                          </div>
+        
+                          <div class="input-group mb-2">
+                            <button class="btn btn-success btn-flat" name="submit" id="firstBtn">Create an Account</button>
+                            <button class="btn btn-primary btn-flat"><a href="log_in.html" class="text-white">Login</a></button>
+                          </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <section class="main-section-two">
+      <footer>
+        <div class="container">
+              <div class="row">
+                  <div class="col-md-4" id="footer">
+                      <h6 class="text-capitalize">contact us</h6>
+                      <li class="list-item">
+                          <i class="fas fa-address-book"></i>
+                      address: 
+                      <p>N0 17 adeola street lagos nigeria</p>
+                      </li>
+                      <li class="list-item">
+                      <i class="fas fa-phone"></i>
+                      phone:
+                      <p>09031985816</p>
+                      </li>
+                      <li class="list-item">
+                      <i class="fa fa-envelope"></i>
+                      email:
+                      <p>Oceandigits.ng.com</p>
+                      </li>
+                  </div>
+                  <div class="col-md-8" id="footer-two">
+                      <div class="sm">
+                          <p class="ml-5">Follow Us</p>
+                          <a href=""><i class="fab fa-facebook-f"></i></a>
+                          <a href=""><i class="fab fa-twitter"></i></a>
+                          <a href=""><i class="fab fa-youtube"></i></a>
+                          <a href=""><i class="fab fa-instagram"></i></a>
+                      </div>
+                      <p class="mt-5">
+                      <!-- <span>site logo.</span> -->
+                      <span>This site is license under</span>
+                      <span> NACAC.</span>
+                      <span>all right reserve our company 2019</span>
+                      </p>
+                  </div>
+              </div>
+        </div>
+      </footer>
+  </section>
+
+    <script src="js/script.js"></script>
+    <script src="js/jquery-3.4.0.js"></script>
+  <script src="js/bootstrap.js"></script>
